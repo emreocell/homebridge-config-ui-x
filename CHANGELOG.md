@@ -159,6 +159,7 @@ All notable changes to `homebridge-config-ui-x` will be documented in this file.
 - fix(auth): close a user's open sockets when the user is deleted or the session is revoked
 - fix(terminal): leave a swipe past the first or last line to the phone, to scroll the page
 - chore(deps): dependency updates
+- fix(plugins): match whole words in the plugin search, require every search word to match, and look up the package the search words spell out
 
 ### Homebridge Dependencies
 
